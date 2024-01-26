@@ -16,7 +16,7 @@ def Message browse(Message message) {
     if (dir.parent != null){strBuilder << "<a href='${srvUrl}${dir.parent}'>&#x1F4C1 ..</a></br>"}
     dir.eachDir {strBuilder << "<a href='${mainUrl}/${it.name}'>&#x1F4C1 ${it.name}</a></br>"}
     dir.eachFile {if (it.isFile()) {strBuilder << "<a href='${urlDown}/${mainDir}/${it.name}'>${it.name}</a></br>" }}
-    message.setBody(strBuilder.toString())
+    message.setBody(strBuilder.toString().replaceAll("//","/"))
     
     mapHeaders = ['content-type':'text/html']
     message.setHeaders(mapHeaders)
@@ -39,4 +39,3 @@ def Message download(Message message) {
                   
     return message
 }
-
