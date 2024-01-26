@@ -7,4 +7,4 @@ Usage:
 
 2.- Call in a web browser:
 
-  https://XXXXXX-iflmap.hcisbp.YYY.hana.ondemand.com/http/amba/cpifilesystem/
+  https://XXXXXX.it-cpiXX-rt.cfapps.XXXX.hana.ondemand.com/http/amba/cpifilesystem/
