@@ -7,4 +7,4 @@ Usage:
 
 2.- Call in a web browser:
 
-  https://XXXXXX-iflmap.hcisbp.YYY.hana.ondemand.com/http/amba/cpifilesystem//usr/sap/ljs
+  https://XXXXXX-iflmap.hcisbp.YYY.hana.ondemand.com/http/amba/cpifilesystem/
